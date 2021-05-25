@@ -9,14 +9,9 @@ try:
     endereco = pycep_correios.get_address_from_cep(cep)    
     
     #Imprime cep válido e endereço completo
-    print('Cep válido!')
+    print('CEP válido!')
     print(endereco)
 
-#Se ocorrer um erro CEPNotFound, imprime mensagem
-except CEPNotFound:
-    print('Cep não encontrado!')
-
-#Se ocorrer um erro InvalidCEP, imprime mensagem
-except InvalidCEP:
-    print('Cep inválido!')
-
+#Se ocorrer um erro CEPNotFound ou InvalidCEP, imprime mensagem
+except CEPNotFound or InvalidCEP:
+    print('CEP não encontrado ou CEP inválido!')
