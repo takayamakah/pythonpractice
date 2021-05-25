@@ -2,7 +2,7 @@
 
 ## Learning
 
-This repository contains the algorithms in python that I learn in the courses.
+This repository contains the algorithms in python that I learn in the courses. <br>
 Basic level.
 
 ###     1 Read_and_write_xls.py
