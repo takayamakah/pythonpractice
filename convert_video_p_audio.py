@@ -1,6 +1,3 @@
-# instalar biblioteca
-# pip install moviepy
-
 import moviepy.editor
 
 #Captura caminho do vídeo a converter
